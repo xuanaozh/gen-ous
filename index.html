@@ -2,6 +2,36 @@
 <html>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+
+    <script>
+        function popUp() {
+  var x = document.getElementById("first");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function popUp2() {
+  var x = document.getElementById("Second");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function popUp3() {
+  var x = document.getElementById("Third");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
 <body>
 
     <div id="mainframe">
@@ -14,6 +44,7 @@
                         GEN-
                         &nbsp;&nbsp;OUS
                 </p>
+                <p class="subTitle">Design Studio</p>
             </div>
 
             <div id="info">
@@ -34,40 +65,67 @@
             </div>
         </div>
 
-        <div id="middlecolumn">
+        <div id="middlecolumn" >
             <p class="subTitle">Projects</p>
             <br>
             <br>
             <br>
-            <p class="subTitle">IREE BRAND</p>
+            <p class="subTitle" onclick="popUp()" >IREE Brands Group</p>
             <hr>
             <br>
-            <p class="subTitle">Dynamic Typography</p>
+            <p class="subTitle" onclick="popUp2()">Dynamic Typography</p>
+            <hr>
+            <br>
+            <p class="subTitle" onclick="popUp3()">Photos Gallery</p>
             <hr>
         </div>
 
-        <div id="rightcolumn">
+        <div class="rightColumn" id="first">
+
+            <p class="subTitle">Year:2020</p>
+            <p class="subTitle">Type:Editorial/Typography/Package</p>
+            <div id="gallery1">
+                <img src="images/iree_visual_identity_system.jpg">
+                <img src="images/iree_visual_identity_system5.jpg">
+                <img src="images/iree_visual_identity_system6.jpg">
+                <img src="images/iree_visual_identity_system7.jpg">
+                <img src="images/iree_visual_identity_system8.jpg">
+                <img src="images/iree_visual_identity_system9.jpg">
+                <img src="images/iree_visual_identity_system10.jpg">
+                <img src="images/iree_visual_identity_system11.jpg">
+                <img src="images/iree_visual_identity_system12.jpg">
+                <img src="images/iree_visual_identity_system14.jpg">
+                <img src="images/iree_visual_identity_system15.jpg">
+                <img src="images/iree_visual_identity_system16.jpg">
+                <img src="images/iree_visual_identity_system17.jpg">
+                <img src="images/iree_visual_identity_system18.jpg">
+                <img src="images/iree_visual_identity_system20.jpg">
+                <img src="images/iree_visual_identity_system21.jpg">
+            </div>
+          
+ 
+
+        </div>
+
+        <div class="rightColumn" id="Second">
 
             <p>My first paragraph.</p>
             <p>My first paragraph.</p>
             <p>My first paragraph.</p>
             <p>My first paragraph.</p>
             <p>My first paragraph.</p>
+ 
+
+        </div>
+
+        <div class="rightColumn" id="Third">
+
             <p>My first paragraph.</p>
             <p>My first paragraph.</p>
             <p>My first paragraph.</p>
             <p>My first paragraph.</p>
             <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
+ 
 
         </div>
 
