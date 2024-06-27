@@ -31,6 +31,15 @@ function popUp3() {
     x.style.display = "none";
   }
 }
+
+function popUp4() {
+  var x = document.getElementById("Four");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
     </script>
 <body>
 
@@ -48,11 +57,11 @@ function popUp3() {
             </div>
 
             <div id="info">
-                <p class="maintext">xuanao@gen-ous.com
+                <p class="maintext">business@gen-ous.com
                 
     
                 </p>
-                <p class="address">
+                <!-- <p class="address">
                     444 Warren St 2961
                     <br>
                     Jersey City, NJ
@@ -61,7 +70,7 @@ function popUp3() {
                     <br>
                     <br>
                     IG&nbsp;&nbsp;&nbsp;&nbsp;TW
-                </p>
+                </p> -->
             </div>
         </div>
 
@@ -78,6 +87,14 @@ function popUp3() {
             <br>
             <p class="subTitle" onclick="popUp3()">Photos Gallery</p>
             <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="subTitle" onclick="popUp4()">About</p>
         </div>
 
         <div class="rightColumn" id="first">
@@ -125,12 +142,33 @@ function popUp3() {
         </div>
 
         <div class="rightColumn" id="Third">
+          <p class="subTitle">Year:2021-Now</p>
+          <p class="subTitle">Type:Photography</p>
+          <div id="gallery3">
+            <img src="images/photos/R0000075.JPG">
+            <img src="images/photos/R0000347.JPG">
+            <img src="images/photos/R0000467.JPG">
+            <img src="images/photos/R0000598.JPG">
+            <img src="images/photos/R0000679.JPG">
+            <img src="images/photos/R0000689.JPG"> 
+            <img src="images/photos/R0000736.JPG">
+            <img src="images/photos/R0000947.JPG">
+            <img src="images/photos/R0001135.JPG">
+          </div>
+     
+ 
 
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
-            <p>My first paragraph.</p>
+        </div>
+
+        
+        <div class="rightColumn" id="Four">
+          <div id="gallery4">
+            <p class="subTitle">Welcome to Genous, a design studio established in 2021. At Genous, we specialize in delivering exceptional creative solutions tailored to your needs. Our services include graphic design, editorial design, web design, and photography projects. Whether you require a compelling visual identity, captivating editorial layouts, a dynamic online presence, or stunning photographic content, Genous is here to elevate your brand with our innovative and personalized approach. Let us bring your vision to life with creativity and precision.</p>
+
+          </div>
+         
+         
+     
  
 
         </div>

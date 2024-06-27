@@ -133,7 +133,12 @@ img {
 
 #Third {
     z-index: 4;
-    background-color: rgba(160, 14, 197, 0.479);
+    /* background-color: rgba(160, 14, 197, 0.479); */
+}
+
+#Four {
+    z-index: 5;
+    /* background-color: rgba(160, 14, 197, 0.479); */
 }
 
 .rightColumn::-webkit-scrollbar {
@@ -147,3 +152,26 @@ img {
     border-radius: 5px;
   }
 
+
+  #gallery3{
+    display: grid;
+    grid-gap: 30px;
+    margin-top:10px;
+    width:90%;
+    height:auto;
+    float:right;
+    
+}
+
+
+
+#gallery4{
+    display: grid;
+    grid-gap: 30px;
+    margin-top:46.5vh;
+    width:90%;
+    height:auto;
+    float:right;
+    text-align: left;
+    
+}
